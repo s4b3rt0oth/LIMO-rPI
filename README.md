@@ -1,6 +1,9 @@
 # LIMO-rPI
 Motion activating LIFX lights with a PI Zero W and PIR sensor.
 
+First thing to do will be to edit the lifx_motion.py files and add your "master light" MAC and IP addresses. It will not work without this!
+
+
 The only requirement is the lifxlan module from pip.
 
 ```
