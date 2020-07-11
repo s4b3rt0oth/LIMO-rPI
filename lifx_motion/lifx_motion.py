@@ -12,8 +12,8 @@ from datetime import datetime #Allows for time delays. There's probably a better
 lifxlan = LifxLAN()
 
 #Setup for master light for power state polling
-lightmac1="d0:73:d5:28:08:19"
-lightIP1="192.168.5.69"
+lightmac1="YOU_LIGHT_MAC_ADDRESS_GOES_HERE (AA:AA:AA, etc.)"
+lightIP1="YOUR_LIGHT_IP_ADDRESS_GOES_HERE"
 
 #Setup GPIO pins as BCM (Broadcom). Physical pin for PIR sensor input is 16.
 GPIO.setmode(GPIO.BCM)
